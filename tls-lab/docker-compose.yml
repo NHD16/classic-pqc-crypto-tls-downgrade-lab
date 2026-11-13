@@ -1,0 +1,26 @@
+services:
+  server:
+    build: ./server
+    networks: [lab]
+    hostname: lab.local
+    # nginx nghe 443, bật TLS 1.2 + 1.3, ECDHE-RSA (xem server/nginx.conf)
+  mitm:
+    build: ./mitm
+    networks: [lab]
+    depends_on: [server]
+    environment:
+      # Docker: nghe trên mọi interface của container, chuyển tiếp tới server:443
+      LISTEN_HOST: "0.0.0.0"
+      LISTEN_PORT: "4434"
+      TARGET_HOST: "server"
+      TARGET_PORT: "443"
+      # S2 = 0 (mặc định); S3/S4: chạy `MANGLE_SENTINEL=1 docker compose up -d --force-recreate mitm`
+      MANGLE_SENTINEL: "${MANGLE_SENTINEL:-0}"
+  client:
+    build: ./client
+    networks: [lab]
+    depends_on: [server, mitm]
+    cap_add: [NET_RAW]          # cho tcpdump bắt gói trong container
+    command: sleep infinity     # giữ container sống để `docker compose exec` chạy openssl
+networks:
+  lab: {}

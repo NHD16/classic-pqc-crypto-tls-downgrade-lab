@@ -1,0 +1,3 @@
+[mitm] listening ('127.0.0.1', 4434) -> ('127.0.0.1', 4433) mangle_sentinel=True
+[mitm] ClientHello 133B -> 133B supported_versions_stripped=False
+[mitm] ServerHello 961B sentinel_zeroed=True

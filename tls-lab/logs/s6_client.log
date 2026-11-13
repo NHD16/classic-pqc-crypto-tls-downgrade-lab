@@ -1,0 +1,123 @@
+Connecting to 127.0.0.1
+depth=0 C=VN, O=Evil-MITM, CN=lab.local
+verify error:num=18:self-signed certificate
+40C72E32A1710000:error:0A000086:SSL routines:tls_post_process_server_certificate:certificate verify failed:../ssl/statem/statem_clnt.c:2124:
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C=VN, O=Evil-MITM, CN=lab.local
+   i:C=VN, O=Evil-MITM, CN=lab.local
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Nov 12 06:15:24 2026 GMT; NotAfter: Nov 12 06:15:24 2027 GMT
+---
+no peer certificate available
+---
+No client certificate CA names sent
+---
+SSL handshake has read 971 bytes and written 1558 bytes
+Verification error: self-signed certificate
+---
+New, (NONE), Cipher is (NONE)
+Protocol: TLSv1.2
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : 0000
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: 
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1794464173
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: yes
+---
+Connecting to 127.0.0.1
+Can't use SSL_get_servername
+depth=0 C=VN, O=Evil-MITM, CN=lab.local
+verify error:num=18:self-signed certificate
+verify return:1
+depth=0 C=VN, O=Evil-MITM, CN=lab.local
+verify return:1
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C=VN, O=Evil-MITM, CN=lab.local
+   i:C=VN, O=Evil-MITM, CN=lab.local
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Nov 12 06:15:24 2026 GMT; NotAfter: Nov 12 06:15:24 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDcjCCAlqgAwIBAgIUfPPDcaowpJoFhV9BjjOi/rkA+c8wDQYJKoZIhvcNAQEL
+BQAwNTELMAkGA1UEBhMCVk4xEjAQBgNVBAoMCUV2aWwtTUlUTTESMBAGA1UEAwwJ
+bGFiLmxvY2FsMB4XDTI2MTExMjA2MTUyNFoXDTI3MTExMjA2MTUyNFowNTELMAkG
+A1UEBhMCVk4xEjAQBgNVBAoMCUV2aWwtTUlUTTESMBAGA1UEAwwJbGFiLmxvY2Fs
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxr6tVgqavJeMON15umIR
+XBcyA2KmbyXC310ha4EmLaBEo+RTWgAPBYtpwnxPuUc8TnCB/hfoOwlTyQSkNJwk
+nu98KqLWtUuQd81JfZyVn4ne9VBViBnrn/hO+aGXm3mBCb1uXrx4iJSdKqXGW3rZ
+8nC8f3JsysBgDkC7+WjD3tmgff2BCk5RYGQiLESbRg67EAMvCcHGYjkpITOaEJC0
+C7wRRfmwm21R8jAkK7Q0k8uwe2YCL21ekQhA4JhZVixy0DqdaycP9+MXUKe+MZWi
+hPkgPVNSrdDa2m/Li0BsGedMpOJHCsVm8umD+H9ihibeE9jdh4b32suyVcDA3JV6
+XQIDAQABo3oweDAdBgNVHQ4EFgQUejs40S3IRWMxCfVc74D/5dyO9L4wHwYDVR0j
+BBgwFoAUejs40S3IRWMxCfVc74D/5dyO9L4wDwYDVR0TAQH/BAUwAwEB/zAlBgNV
+HREEHjAcgglsYWIubG9jYWyCCWxvY2FsaG9zdIcEfwAAATANBgkqhkiG9w0BAQsF
+AAOCAQEAiNEZno4IzPx51lSjAXTrtkpkJsbP9cXwvvTGVo8mYkpgpGOqCLO82nWx
+uH+kDhHsWiFdGXDYiAyxe5Ac/M5ulGNcuMFYmXblaImBYgBylcl12kzD8VNmQ4CP
+5CIcU3kZYnwFH3bsRTrPNuOvi6T4ezElMRfwhzvPOlDFcGSAU2KQRawxQRPR630a
+W82oDzuKrVEqE/aSwrrzEk0M420FgQvX2aZxrSAZ2WkgLPOnQ3QRSgVHg2Ab2Vde
+wWyObq1+TAdnJneid8eSIAOengRsmX4toXAAlkztBurUK9IhqZSq99d2nzflmyB/
+eLQEDJ8L+hNI2bAo02IE2rG2iU6oBg==
+-----END CERTIFICATE-----
+subject=C=VN, O=Evil-MITM, CN=lab.local
+issuer=C=VN, O=Evil-MITM, CN=lab.local
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Peer Temp Key: X25519, 253 bits
+---
+SSL handshake has read 1527 bytes and written 1626 bytes
+Verification error: self-signed certificate
+---
+New, TLSv1.2, Cipher is ECDHE-RSA-AES256-GCM-SHA384
+Protocol: TLSv1.2
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES256-GCM-SHA384
+    Session-ID: 8118462DEC32C68E266444A775B015F5E54EB42A330D1A93B2DB97B4C2412BE8
+    Session-ID-ctx: 
+    Master-Key: BC170D1308343DD053AA0B9B0245E84E19641672297D934C87DD056D4A76337989B54736D5253D6BCC94484FB0D8E34D
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 3d fb e7 f6 d5 86 84 b6-c6 2e 66 88 f5 0e 3b cd   =.........f...;.
+    0010 - a5 e0 e2 14 40 c0 d1 0a-1d 69 7d ca a8 91 b1 95   ....@....i}.....
+    0020 - d5 d6 94 97 e2 56 06 aa-c9 d5 92 9b 2b c2 dc cc   .....V......+...
+    0030 - a5 c2 14 16 d8 5c 24 b0-46 31 45 a3 bd 66 2f bd   .....\$.F1E..f/.
+    0040 - 88 d1 9c e9 94 88 10 78-77 3f f2 68 d1 3d 0b 06   .......xw?.h.=..
+    0050 - 7e 04 46 9a 21 86 a3 8b-2c cf e7 c7 cd 01 27 84   ~.F.!...,.....'.
+    0060 - fe 30 47 52 cd e1 69 86-11 ea 54 8e 82 2a 11 c3   .0GR..i...T..*..
+    0070 - 7f 8c ea 14 5a bb af 18-1e 8f a1 7f 33 5b 28 16   ....Z.......3[(.
+    0080 - 45 ba e8 b4 9d 48 7b 84-10 6f a4 66 e1 75 0a 48   E....H{..o.f.u.H
+    0090 - 59 06 07 f3 5e b3 bd 1b-38 35 e0 ec 50 1d b1 4d   Y...^...85..P..M
+    00a0 - 3f 3f 50 56 00 57 a7 a5-15 e9 1e 87 ed 19 65 a9   ??PV.W........e.
+
+    Start Time: 1794464180
+    Timeout   : 7200 (sec)
+    Verify return code: 18 (self-signed certificate)
+    Extended master secret: yes
+---
+DONE

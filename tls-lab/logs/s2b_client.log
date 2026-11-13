@@ -1,0 +1,12 @@
+<<< TLS 1.2, Handshake [length 0041], ServerHello
+    02 00 00 3d 03 03 b2 c3 0d 10 fe b2 44 eb 3d 19
+    e2 c8 62 b7 59 98 5d 6b 43 f9 fd 29 2c 10 44 4f
+    57 4e 47 52 44 01 00 c0 30 00 00 15 ff 01 00 01
+    00 00 0b 00 04 03 00 01 02 00 23 00 00 00 17 00
+    00
+<<< TLS 1.2, Handshake [length 0004], ServerHelloDone
+    0e 00 00 00
+>>> TLS 1.2, RecordHeader [length 0005]
+    16 03 03 00 25
+>>> TLS 1.2, Handshake [length 0025], ClientKeyExchange
+    10 00 00 21 20 b2 95 62 3f 95 0d 55 bd d0 c8 c6

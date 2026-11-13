@@ -1,0 +1,66 @@
+Connecting to 127.0.0.1
+depth=1 C=VN, O=TLS-Lab, CN=TLS-Lab Internal CA
+verify return:1
+depth=0 C=VN, O=TLS-Lab, CN=lab.local
+verify return:1
+4077C906FF780000:error:0A0003FC:SSL routines:ssl3_read_bytes:ssl/tls alert bad record mac:../ssl/record/rec_layer_s3.c:918:SSL alert number 20
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:C=VN, O=TLS-Lab, CN=lab.local
+   i:C=VN, O=TLS-Lab, CN=TLS-Lab Internal CA
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Nov 12 01:49:27 2026 GMT; NotAfter: Nov 12 01:49:27 2027 GMT
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIDZzCCAk+gAwIBAgIUSU7NmYLAiigkrD5C8tOv3yyF9aMwDQYJKoZIhvcNAQEL
+BQAwPTELMAkGA1UEBhMCVk4xEDAOBgNVBAoMB1RMUy1MYWIxHDAaBgNVBAMME1RM
+Uy1MYWIgSW50ZXJuYWwgQ0EwHhcNMjYxMTEyMDE0OTI3WhcNMjcxMTEyMDE0OTI3
+WjAzMQswCQYDVQQGEwJWTjEQMA4GA1UECgwHVExTLUxhYjESMBAGA1UEAwwJbGFi
+LmxvY2FsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxf+KJYK/lVMO
+vI3RsADD/ZHA7QEu5z7EgKy2/M4Jf9dJ7i+BDrQ98bsrRa6kLnp5sriFXUlZFIzG
+DDHZI1ED/Y9Z4AFeSaY602BcGgnnRORHNbpDtyjaAlg1gRy9Dm82oRsSHUfdGgxF
+V7Sy/QP2cCo00l/Sn1BZe5CL8GAKUOBNbyEycj693v612ZhiuHRx1HjJSWXhvJK1
+wd/+4XLBZ+NvXQnZld8TaK0dDC+DifdTjE03ODVjL4ZshAAd15Z/1u1B2k2jUjnJ
+SVQN85FJ1iHr4fCCyfduiNjwtI8zPPvwrZzJ8HPTVDnQ6m6JRFSYgvLExI1WW86l
+ZFvS3zij1QIDAQABo2kwZzAlBgNVHREEHjAcgglsYWIubG9jYWyCCWxvY2FsaG9z
+dIcEfwAAATAdBgNVHQ4EFgQUfFeWg4Gh8FkYAlqEqYzg9If+0ngwHwYDVR0jBBgw
+FoAUC0cwBv9YBc37avfDd/Gn/tR0TQYwDQYJKoZIhvcNAQELBQADggEBAD/ZRenY
+wXN1SWrpT4O9y/KdNMhwW1NXhozaBIuCy0lQbw/461gLr0XsLW0/mqqvQlK0UqwP
+10qvLMa8Mlrux6/s8mMtV2K1MYSKKsO7s5x/IwC9k5M1WH41GrLzFUd2DglmHfFT
+SmYX7R4UBbBQMD+x3k8JunWvDTBjlpsubBz181TyjARWagNHKX4agqT85mkJv3XV
+X8w7Mg/WdlY95scWW+Rwzx/WYpl1K0fXA9eD3CLa6yrZx65L02xuksf79FazfPG3
+egKfTfxvawbIuuJIoBqTJSd9kYRtZ4XUAJ9pEV+kvOC9hZ0n2L8ibx+CfNhg0k7k
+zsyiANt7M1WAYQg=
+-----END CERTIFICATE-----
+subject=C=VN, O=TLS-Lab, CN=lab.local
+issuer=C=VN, O=TLS-Lab, CN=TLS-Lab Internal CA
+---
+No client certificate CA names sent
+---
+SSL handshake has read 968 bytes and written 451 bytes
+Verification: OK
+Verified peername: lab.local
+---
+New, TLSv1.2, Cipher is AES128-GCM-SHA256
+Protocol: TLSv1.2
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : AES128-GCM-SHA256
+    Session-ID: 
+    Session-ID-ctx: 
+    Master-Key: E0C5F4A1AE26993890F7214DAAF7F95E36E7E57DEAD57CADA541B1AB7A0BF92869B57EFD4883721CDE3AD42DE1B90735
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    Start Time: 1794462697
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: yes
+---

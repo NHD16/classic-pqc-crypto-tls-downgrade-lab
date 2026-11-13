@@ -1,0 +1,57 @@
+    0:d=0  hl=4 l= 871 cons: SEQUENCE          
+    4:d=1  hl=4 l= 591 cons: SEQUENCE          
+    8:d=2  hl=2 l=   3 cons: cont [ 0 ]        
+   10:d=3  hl=2 l=   1 prim: INTEGER           :02
+   13:d=2  hl=2 l=  20 prim: INTEGER           :494ECD9982C08A2824AC3E42F2D3AFDF2C85F5A2
+   35:d=2  hl=2 l=  13 cons: SEQUENCE          
+   37:d=3  hl=2 l=   9 prim: OBJECT            :sha256WithRSAEncryption
+   48:d=3  hl=2 l=   0 prim: NULL              
+   50:d=2  hl=2 l=  61 cons: SEQUENCE          
+   52:d=3  hl=2 l=  11 cons: SET               
+   54:d=4  hl=2 l=   9 cons: SEQUENCE          
+   56:d=5  hl=2 l=   3 prim: OBJECT            :countryName
+   61:d=5  hl=2 l=   2 prim: PRINTABLESTRING   :VN
+   65:d=3  hl=2 l=  16 cons: SET               
+   67:d=4  hl=2 l=  14 cons: SEQUENCE          
+   69:d=5  hl=2 l=   3 prim: OBJECT            :organizationName
+   74:d=5  hl=2 l=   7 prim: UTF8STRING        :TLS-Lab
+   83:d=3  hl=2 l=  28 cons: SET               
+   85:d=4  hl=2 l=  26 cons: SEQUENCE          
+   87:d=5  hl=2 l=   3 prim: OBJECT            :commonName
+   92:d=5  hl=2 l=  19 prim: UTF8STRING        :TLS-Lab Internal CA
+  113:d=2  hl=2 l=  30 cons: SEQUENCE          
+  115:d=3  hl=2 l=  13 prim: UTCTIME           :261108143247Z
+  130:d=3  hl=2 l=  13 prim: UTCTIME           :271108143247Z
+  145:d=2  hl=2 l=  51 cons: SEQUENCE          
+  147:d=3  hl=2 l=  11 cons: SET               
+  149:d=4  hl=2 l=   9 cons: SEQUENCE          
+  151:d=5  hl=2 l=   3 prim: OBJECT            :countryName
+  156:d=5  hl=2 l=   2 prim: PRINTABLESTRING   :VN
+  160:d=3  hl=2 l=  16 cons: SET               
+  162:d=4  hl=2 l=  14 cons: SEQUENCE          
+  164:d=5  hl=2 l=   3 prim: OBJECT            :organizationName
+  169:d=5  hl=2 l=   7 prim: UTF8STRING        :TLS-Lab
+  178:d=3  hl=2 l=  18 cons: SET               
+  180:d=4  hl=2 l=  16 cons: SEQUENCE          
+  182:d=5  hl=2 l=   3 prim: OBJECT            :commonName
+  187:d=5  hl=2 l=   9 prim: UTF8STRING        :lab.local
+  198:d=2  hl=4 l= 290 cons: SEQUENCE          
+  202:d=3  hl=2 l=  13 cons: SEQUENCE          
+  204:d=4  hl=2 l=   9 prim: OBJECT            :rsaEncryption
+  215:d=4  hl=2 l=   0 prim: NULL              
+  217:d=3  hl=4 l= 271 prim: BIT STRING        
+  492:d=2  hl=2 l= 105 cons: cont [ 3 ]        
+  494:d=3  hl=2 l= 103 cons: SEQUENCE          
+  496:d=4  hl=2 l=  37 cons: SEQUENCE          
+  498:d=5  hl=2 l=   3 prim: OBJECT            :X509v3 Subject Alternative Name
+  503:d=5  hl=2 l=  30 prim: OCTET STRING      [HEX DUMP]:301C82096C61622E6C6F63616C82096C6F63616C686F737487047F000001
+  535:d=4  hl=2 l=  29 cons: SEQUENCE          
+  537:d=5  hl=2 l=   3 prim: OBJECT            :X509v3 Subject Key Identifier
+  542:d=5  hl=2 l=  22 prim: OCTET STRING      [HEX DUMP]:04145A8074B646403AA2F3CE2913E197CBDA2A4F65B4
+  566:d=4  hl=2 l=  31 cons: SEQUENCE          
+  568:d=5  hl=2 l=   3 prim: OBJECT            :X509v3 Authority Key Identifier
+  573:d=5  hl=2 l=  24 prim: OCTET STRING      [HEX DUMP]:30168014853EE5E611621E9E9555F7EA704EC3947AAA7C8F
+  599:d=1  hl=2 l=  13 cons: SEQUENCE          
+  601:d=2  hl=2 l=   9 prim: OBJECT            :sha256WithRSAEncryption
+  612:d=2  hl=2 l=   0 prim: NULL              
+  614:d=1  hl=4 l= 257 prim: BIT STRING        
